@@ -27,7 +27,7 @@ async def start(event):
   await event.reply("**🌀TeamTaggerBot**\n ile Grubunuzdakı Nerdeyse Tüm Üyelere Etiket Ata bilirim \nKomutlar için =======> /help yazın**",
                     buttons=(
                    
-		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/lucitaggerbot?startgroup=a')],
+		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/TeamTaggerBot?startgroup=a')],
                       [Button.url('Support🛠', 'https://t.me/teamtagsup')],
                       [Button.url('Resmi Kanal📣', 'https://t.me/texnoteamm')],
 		      [Button.url('Sahib👨🏻‍💻', 'https://t.me/TTteamabasof')],
@@ -39,7 +39,7 @@ async def help(event):
   helptext = "**🌀 TeamTaggerBot Komutları**\n\n**/tag <sebeb> - 5-li Etiket Atar**\n\n**/etag <sebeb> - Emoji ile etiketler**\n\n**/tektag sebeb - Üyeleri Tek Tek Etiketler**\n\n**/admins sebeb - Yöneticileri Tek Tek Tag Eder**\n\n**/start - botu başlatır**"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('Beni Gruba Ekle➕', 'https://t.me/lucitaggerbot?startgroup=a')],
+                      [Button.url('Beni Gruba Ekle➕', 'https://t.me/TeamTaggerBot?startgroup=a')],
                       [Button.url('Support👨‍💻', 'https://t.me/teamtagsup')],
                       [Button.url('Resmi Kanal🔖', 'https://t.me/texnoteamm')],
 		      [Button.url('Sahib🧑‍🔧', 'https://t.me/TTteamabasof')],
@@ -52,7 +52,7 @@ async def help(event):
   helptext = "**Çok özellikleri Etiket Botu Bulmaya Çalışan Grub Sahibleri @TeamTaggerBot Size Göre:\n\n📌 5-li etiket\n📌 Emoji etiket\n📌 Tekli Etiket\n📌 Yalnız Yöneticileri etiketleme\n📌\n\n Böyle Çok özellikli @LuciTaggerBot 'u grubunuza yönetici olarak ekleyip rahatlıkla üyelir , etiket ata bilirsiz **"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('Botu Gruba Ekle➕', 'https://t.me/lucitaggerbot?startgroup=a')],
+                      [Button.url('Botu Gruba Ekle➕', 'https://t.me/TeamTaggerBot?startgroup=a')],
                     ),
                     link_preview=False
                    )
